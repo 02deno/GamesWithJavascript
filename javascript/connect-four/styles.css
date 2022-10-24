@@ -1,0 +1,24 @@
+.grid {
+    border: 1px solid;
+    height: 120px; /*20x6 = 120 6 kare yüksekliğinde*/
+    width: 140px;  /*20x7 = 140 7 kare genişliğinde*/
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid div {
+    height: 20px;
+    width: 20px;
+    
+}
+
+
+.player-one {
+    background-color: red;
+    border-radius: 10px;
+}
+
+.player-two {
+    background-color: blue;
+    border-radius: 10px;
+}

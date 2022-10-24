@@ -1,0 +1,36 @@
+.grid {
+    position: absolute; /*to move things around*/
+    width: 560px;
+    height: 300px;
+    border: solid black 1px;
+    margin-top: 80px;
+}
+
+.block {
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: blue;
+    /*anchor point : as identifier bottom left corner*/
+    /*
+    left: 50px;
+    bottom: 50px;
+    add these by using javascript
+    */
+}
+
+.user {
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: purple;
+    
+}
+
+.ball { 
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: red;
+}
